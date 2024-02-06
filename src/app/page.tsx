@@ -39,7 +39,7 @@ const images = [
 ];
 
 const Home = () => {
-  const gallery = useRef(null);
+  const gallery = useRef<HTMLDivElement>(null);
   const [titlePop, setTitlePop] = useState(false);
   const [dimension, setDimension] = useState({ width: 0, height: 0 });
 
