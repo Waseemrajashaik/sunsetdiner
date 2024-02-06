@@ -7,6 +7,8 @@ import SMImage1 from "../../../public/special_menu/sm_image1.jpeg";
 import SMImage2 from "../../../public/special_menu/sm_image2.jpeg";
 import SMImage3 from "../../../public/special_menu/sm_image3.jpeg";
 
+type MenuItems = any;
+
 const Menu = () => {
   const [menuToggle, setMenuToggle] = useState(0);
   const handleToggle = (i: any) => {
