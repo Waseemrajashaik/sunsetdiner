@@ -1,0 +1,294 @@
+{
+  "Appetizers": [
+    {
+      "name": "Mozzarella Sticks",
+      "description": "Crispy fried mozzarella sticks served with marinara sauce.",
+      "price": 8.99
+    },
+    {
+      "name": "Buffalo Wings",
+      "description": "Spicy buffalo wings served with ranch dressing.",
+      "price": 10.99
+    },
+    {
+      "name": "Loaded Nachos",
+      "description": "Tortilla chips topped with melted cheese, jalapenos, sour cream, and guacamole.",
+      "price": 12.99
+    },
+    {
+      "name": "Spinach Artichoke Dip",
+      "description": "Creamy spinach and artichoke dip served with toasted bread slices.",
+      "price": 9.99
+    },
+    {
+      "name": "Fried Calamari",
+      "description": "Crispy calamari rings served with marinara sauce.",
+      "price": 11.99
+    },
+    {
+      "name": "Garlic Parmesan Fries",
+      "description": "Crispy French fries tossed in garlic butter and Parmesan cheese.",
+      "price": 7.99
+    },
+    {
+      "name": "Onion Rings",
+      "description": "Golden-fried onion rings served with chipotle mayo dipping sauce.",
+      "price": 8.99
+    },
+    {
+      "name": "Bruschetta",
+      "description": "Toasted bread topped with diced tomatoes, garlic, basil, and olive oil.",
+      "price": 9.99
+    },
+    {
+      "name": "BBQ Chicken Quesadilla",
+      "description": "Grilled flour tortilla filled with BBQ chicken, cheese, and onions, served with salsa and sour cream.",
+      "price": 10.99
+    },
+    {
+      "name": "Stuffed Mushrooms",
+      "description": "Mushroom caps stuffed with a mixture of cheese, herbs, and breadcrumbs.",
+      "price": 9.99
+    }
+  ],
+  "Salads": [
+    {
+      "name": "Caesar Salad",
+      "description": "Fresh romaine lettuce tossed with Caesar dressing, croutons, and Parmesan cheese.",
+      "price": 9.99
+    },
+    {
+      "name": "Greek Salad",
+      "description": "Mixed greens topped with feta cheese, Kalamata olives, tomatoes, cucumbers, and red onions, served with Greek dressing.",
+      "price": 10.99
+    },
+    {
+      "name": "Cobb Salad",
+      "description": "Chopped lettuce topped with grilled chicken, avocado, bacon, hard-boiled eggs, tomatoes, and blue cheese dressing.",
+      "price": 12.99
+    },
+    {
+      "name": "Caprese Salad",
+      "description": "Slices of fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
+      "price": 11.99
+    },
+    {
+      "name": "Asian Sesame Salad",
+      "description": "Mixed greens with mandarin oranges, sliced almonds, crispy noodles, and sesame ginger dressing.",
+      "price": 11.99
+    },
+    {
+      "name": "Spinach Salad",
+      "description": "Baby spinach with bacon, mushrooms, hard-boiled eggs, red onions, and warm bacon vinaigrette.",
+      "price": 10.99
+    },
+    {
+      "name": "Taco Salad",
+      "description": "Crisp tortilla bowl filled with seasoned ground beef, lettuce, tomatoes, cheese, sour cream, and salsa.",
+      "price": 12.99
+    },
+    {
+      "name": "Waldorf Salad",
+      "description": "Mixed greens with apples, grapes, celery, walnuts, and creamy dressing.",
+      "price": 10.99
+    },
+    {
+      "name": "Strawberry Fields Salad",
+      "description": "Mixed greens with strawberries, goat cheese, candied pecans, and balsamic vinaigrette.",
+      "price": 11.99
+    },
+    {
+      "name": "Mediterranean Salad",
+      "description": "Romaine lettuce with cucumbers, red onions, tomatoes, olives, feta cheese, and Greek dressing.",
+      "price": 11.99
+    }
+  ],
+  "Sandwiches": [
+    {
+      "name": "Turkey Club Sandwich",
+      "description": "Triple-decker sandwich with roasted turkey, bacon, lettuce, tomato, and mayo on toasted bread.",
+      "price": 11.99
+    },
+    {
+      "name": "Grilled Cheese Sandwich",
+      "description": "Classic grilled cheese sandwich made with melted American cheese on buttered toast.",
+      "price": 8.99
+    },
+    {
+      "name": "BLT Sandwich",
+      "description": "Classic bacon, lettuce, and tomato sandwich with mayo on toasted bread.",
+      "price": 9.99
+    },
+    {
+      "name": "Chicken Club Wrap",
+      "description": "Grilled chicken breast, bacon, lettuce, tomato, and ranch dressing wrapped in a flour tortilla.",
+      "price": 10.99
+    },
+    {
+      "name": "Tuna Salad Sandwich",
+      "description": "Homemade tuna salad with lettuce, tomato, and mayo on your choice of bread.",
+      "price": 9.99
+    },
+    {
+      "name": "Philly Cheesesteak Sandwich",
+      "description": "Sliced steak with sautéed onions, peppers, and melted provolone cheese on a hoagie roll.",
+      "price": 12.99
+    },
+    {
+      "name": "Egg Salad Sandwich",
+      "description": "Freshly made egg salad with lettuce and tomato on your choice of bread.",
+      "price": 8.99
+    },
+    {
+      "name": "Cuban Sandwich",
+      "description": "Classic Cuban sandwich with roasted pork, ham, Swiss cheese, pickles, and mustard on Cuban bread.",
+      "price": 12.99
+    },
+    {
+      "name": "Vegetarian Panini",
+      "description": "Grilled panini with roasted vegetables, pesto, mozzarella cheese, and sun-dried tomatoes on ciabatta bread.",
+      "price": 10.99
+    },
+    {
+      "name": "Reuben Sandwich",
+      "description": "Corned beef, sauerkraut, Swiss cheese, and Russian dressing on grilled rye bread.",
+      "price": 11.99
+    }
+  ],
+  "Pasta": [
+    {
+      "name": "Spaghetti Carbonara",
+      "description": "Spaghetti pasta tossed with pancetta, eggs, Parmesan cheese, and black pepper in a creamy sauce.",
+      "price": 14.99
+    },
+    {
+      "name": "Fettuccine Alfredo",
+      "description": "Fettuccine pasta tossed in a creamy Alfredo sauce made with butter, cream, and Parmesan cheese.",
+      "price": 13.99
+    },
+    {
+      "name": "Shrimp Scampi",
+      "description": "Linguine pasta sautéed with shrimp, garlic, white wine, lemon juice, and parsley.",
+      "price": 16.99
+    },
+    {
+      "name": "Chicken Parmesan",
+      "description": "Breaded chicken breast topped with marinara sauce and melted mozzarella cheese, served with spaghetti.",
+      "price": 15.99
+    },
+    {
+      "name": "Vegetable Primavera",
+      "description": "Penne pasta tossed with seasonal vegetables in a light garlic and olive oil sauce.",
+      "price": 12.99
+    },
+    {
+      "name": "Lobster Ravioli",
+      "description": "Ravioli stuffed with lobster meat and served in a creamy tomato vodka sauce.",
+      "price": 17.99
+    },
+    {
+      "name": "Penne Arrabiata",
+      "description": "Penne pasta tossed in a spicy tomato sauce with garlic, chili flakes, and fresh basil.",
+      "price": 12.99
+    },
+    {
+      "name": "Baked Ziti",
+      "description": "Ziti pasta baked with marinara sauce, ricotta cheese, mozzarella cheese, and Parmesan cheese.",
+      "price": 13.99
+    },
+    {
+      "name": "Spinach and Ricotta Stuffed Shells",
+      "description": "Jumbo pasta shells filled with spinach and ricotta cheese, baked in marinara sauce.",
+      "price": 14.99
+    },
+    {
+      "name": "Pasta Primavera",
+      "description": "Linguine pasta with sautéed mixed vegetables in a light garlic and white wine sauce.",
+      "price": 12.99
+    }
+  ],
+  "Burgers": [
+    {
+      "name": "Classic Cheeseburger",
+      "description": "Angus beef patty topped with American cheese, lettuce, tomato, onions, and pickles on a toasted bun.",
+      "price": 11.99
+    },
+    {
+      "name": "Bacon BBQ Burger",
+      "description": "Angus beef patty topped with crispy bacon, cheddar cheese, BBQ sauce, and crispy onion strings on a brioche bun.",
+      "price": 12.99
+    },
+    {
+      "name": "Mushroom Swiss Burger",
+      "description": "Angus beef patty topped with sautéed mushrooms, Swiss cheese, lettuce, and mayo on a sesame seed bun.",
+      "price": 12.99
+    },
+    {
+      "name": "Veggie Burger",
+      "description": "Grilled veggie patty topped with lettuce, tomato, avocado, and chipotle mayo on a whole wheat bun.",
+      "price": 10.99
+    },
+    {
+      "name": "Jalapeno Popper Burger",
+      "description": "Angus beef patty topped with jalapeno cream cheese, jalapenos, bacon, and pepper jack cheese on a pretzel bun.",
+      "price": 13.99
+    },
+    {
+      "name": "Hawaiian Burger",
+      "description": "Angus beef patty topped with grilled pineapple, teriyaki glaze, Swiss cheese, lettuce, and mayo on a Hawaiian bun.",
+      "price": 13.99
+    },
+    {
+      "name": "Black Bean Burger",
+      "description": "Spicy black bean patty topped with pepper jack cheese, lettuce, tomato, and avocado on a multigrain bun.",
+      "price": 11.99
+    },
+    {
+      "name": "The Works Burger",
+      "description": "Angus beef patty topped with bacon, fried egg, onion rings, cheddar cheese, lettuce, and BBQ sauce on a brioche bun.",
+      "price": 14.99
+    },
+    {
+      "name": "Buffalo Chicken Burger",
+      "description": "Crispy chicken breast tossed in buffalo sauce, topped with blue cheese dressing, lettuce, and tomato on a toasted bun.",
+      "price": 12.99
+    },
+    {
+      "name": "Southwest Turkey Burger",
+      "description": "Seasoned turkey patty topped with pepper jack cheese, guacamole, lettuce, and chipotle mayo on a ciabatta bun.",
+      "price": 12.99
+    }
+  ],
+  "Wraps": [
+    {
+      "name": "Chicken Caesar Wrap",
+      "description": "Grilled chicken, romaine lettuce, Parmesan cheese, and Caesar dressing wrapped in a flour tortilla.",
+      "price": 10.99
+    },
+    {
+      "name": "BBQ Ranch Wrap",
+      "description": "Crispy chicken tenders, lettuce, tomato, cheddar cheese, bacon, and ranch dressing wrapped in a flour tortilla.",
+      "price": 11.99
+    },
+    {
+      "name": "Greek Chicken Wrap",
+      "description": "Grilled chicken, mixed greens, feta cheese, Kalamata olives, tomatoes, cucumbers, and Greek dressing wrapped in a spinach tortilla.",
+      "price": 11.99
+    },
+    {
+      "name": "Veggie Hummus Wrap",
+      "description": "Hummus, mixed greens, cucumbers, tomatoes, bell peppers, red onions, and feta cheese wrapped in a whole wheat tortilla.",
+      "price": 10.99
+    },
+    {
+      "name": "Buffalo Chicken Wrap",
+      "description": "Crispy chicken tenders tossed in buffalo sauce, lettuce, tomato, blue cheese dressing, and shredded cheddar cheese wrapped in a flour tortilla.",
+      "price": 11.99
+    },
+    {
+      "name": "California Turkey Wrap",
+      "description": "Sliced turkey, avocado, bacon, lettuce, tomato, and mayo wrapped in a spinach tortilla.",
+      "price": 12.99
+    }
+  ]
+}

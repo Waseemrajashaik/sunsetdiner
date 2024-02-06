@@ -1,0 +1,259 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+.tab
+    --tab-bg: darkseagreen
+    --tab-border-color: darkseagreen
+    --tab-color: black
+    &:checked
+        --tab-color: white
+$min-large: 1008px
+$min-medium: 641px
+
+$primary-color: #FFDD00
+$home-color: #fbc16f
+$about-color:  #f99e35
+$menu-color: #ffffff
+$catering-color: #89c9f7
+$reservation-color: #b9ed9d
+
+.bungee-style
+    font-family: var(--font-bungee)
+
+.chunk-style
+    font-family: var(--font-chunk)
+    color: $primary-color
+
+.chunk-style-h
+    font-family: var(--font-chunk)
+    color: $home-color
+.primary-bg
+    background-color: $primary-color
+.home-bg
+    background-color: $home-color
+.about-bg
+    background-color: $about-color
+.menu-bg
+    background-color: $menu-color
+.catering-bg
+    background-color: $catering-color
+.reservation-bg
+    background-color: $reservation-color
+
+.logo
+    z-index: 1 !important
+    position: relative
+
+.menubtn
+    margin: 0 10px    
+    font-size: 18px
+    font-weight: 800
+    letter-spacing: 1px
+    padding: 5px 20px
+    outline: 0
+    border: 1px solid black
+    cursor: pointer
+    position: relative
+    background-color: transparent
+    user-select: none
+    -webkit-user-select: none
+    touch-action: manipulation
+    &:after
+        content: ""
+        background-color: $home-color
+        width: 100%
+        z-index: -1
+        position: absolute
+        height: 100%
+        top: 7px
+        left: 7px
+        transition: 0.2s
+    &:hover:after
+        top: 0px
+        left: 0px
+
+.menubtn-active
+    border: 1px solid black
+    color: black
+    &::after
+        background-color: $primary-color !important
+        top: 0px
+        left: 0px
+        
+.menubtn-l
+    &:after
+        background-color: $about-color
+
+.menubtn-r
+    &:after
+        background-color: $menu-color
+
+.menubtn-b
+    &:after
+        background-color: $catering-color
+
+.menubtn-o
+    &:after
+        background-color: $reservation-color
+
+
+@media (max-width: $min-large)
+    .menu-items
+        display: none
+
+
+
+.header-toggle-on
+    #top-line
+        animation: down-rotate 0.6s ease-out both
+    #bottom-line
+        animation: up-rotate 0.6s ease-out both
+    #middle-line
+        animation: hide 0.6s ease-out forwards
+
+#top-line,
+#bottom-line,
+#middle-line
+    transform-box: fill-box
+    transform-origin: center
+    stroke: black
+
+@keyframes up-rotate
+    0%
+        animation-timing-function: cubic-bezier(0.16, -0.88, 0.97, 0.53)
+        transform: translateY(0px)
+    30%
+        transform-origin: center
+        animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1)
+        transform: translateY(-10px)
+    100%
+        transform-origin: center
+        transform: translateY(-10px) rotate(45deg) scale(0.9)
+
+
+@keyframes down-rotate
+    0%
+        animation-timing-function: cubic-bezier(0.16, -0.88, 0.97, 0.53)
+        transform: translateY(0px)
+    30%
+        transform-origin: center
+        animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1)
+        transform: translateY(10px)
+    100%
+        transform-origin: center
+        transform: translateY(10px) rotate(-45deg) scale(0.9)
+
+
+@keyframes hide
+    29%
+        opacity: 1
+    30%
+        opacity: 0
+    100%
+        opacity: 0
+
+.active
+    clip-path: circle(100%) !important
+
+@mixin dynamic-menu-button($word, $color)
+  .menubtn-mb-active-#{$word}
+    border: 1px solid black
+    color: black
+
+    &::after
+      background-color: $color !important
+      top: 0px
+      left: 0px
+
+@include dynamic-menu-button("menu", $menu-color)
+@include dynamic-menu-button("about", $about-color)
+@include dynamic-menu-button("home", $home-color)
+@include dynamic-menu-button("reservation", $reservation-color)
+@include dynamic-menu-button("catering", $catering-color)
+
+.wrapper
+  position: fixed
+  top: 0
+  left: 0
+  height: 100%
+  width: 100%
+  background: $primary-color
+  clip-path: circle(0.1px at calc(100% - 40px) 45px)
+  transition: all 0.3s ease-in-out
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-content: center
+  li
+    margin: 15px 0
+    display: flex
+    justify-content: center
+    align-content: center
+    
+
+
+.gallery 
+    height: 175vh
+    background: rgb(45, 45, 45)
+    position: relative
+    display: flex
+    flex-wrap: wrap
+    gap: 2vw
+    padding: 2vw
+    box-sizing: border-box
+    overflow: hidden
+    .column
+        position: relative
+        height: 100%
+        width: 25%
+        min-width: 250px
+        display: flex
+        flex: 20%
+        flex-direction: column
+        gap: 2vw
+        .imageContainer
+            height: 100%
+            width: 100%
+            position: relative
+            border-radius: 1vw
+            overflow: hidden
+            img
+                object-fit: cover
+            
+        
+        &:nth-of-type(1)
+            top: -45%
+        
+        &:nth-of-type(2)
+            top: -95%
+        
+        &:nth-of-type(3)
+            top: -45%
+        
+        &:nth-of-type(4)
+            top: -75%
+
+
+@media (max-width: $min-large)
+    .gallery
+        .column
+            flex: 40%
+
+@media (max-width: $min-medium)
+    .gallery
+        .column
+            flex: 20%
+
+.h-inherit
+    height: inherit !important
+
+.w-inherit
+    width: inherit !important
+
+.mark-image
+    &::after
+        content: ""
+        width: 100%
+        height: 100%
+        background-color: black
