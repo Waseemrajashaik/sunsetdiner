@@ -146,7 +146,7 @@ const Menu = () => {
               className={`border-[darkseagreen] ${menuToggle === i ? "tab-content:checked" : "tab-content"}`}
               key={i}
             >
-              {MenuItems[items].map((item, i) => (
+              {MenuItems[items as MenuItemKeys].map((item, i) => (
                 <div className="flex w-full flex-col p-4 text-black" key={i}>
                   <div className="flex w-full justify-between">
                     <span className="font-bold">{item["name"]}</span>
