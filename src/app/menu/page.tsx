@@ -8,6 +8,7 @@ import SMImage2 from "../../../public/special_menu/sm_image2.jpeg";
 import SMImage3 from "../../../public/special_menu/sm_image3.jpeg";
 
 type MenuItems = any;
+type MenuItemKeys = keyof typeof MenuItems;
 
 const Menu = () => {
   const [menuToggle, setMenuToggle] = useState(0);
@@ -109,7 +110,7 @@ const Menu = () => {
                 {items}
               </div>
               <div className="collapse-content:checked flex flex-wrap bg-white pl-10 pr-10">
-                {MenuItems[items].map((item, i) => (
+                {MenuItems[items as MenuItemKeys].map((item, i) => (
                   <div
                     className="flex w-full flex-col p-4 min-[100px]:flex-auto lg:flex-[50%]"
                     key={i}
