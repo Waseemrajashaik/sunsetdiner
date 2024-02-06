@@ -7,11 +7,11 @@ const __dirname = path.dirname(__filename);
 
 const nextConfig = {
   sassOptions: {
-    includePaths: [path.join(__dirname + "/styles", "styles")],
+    includePaths: [path.join(__dirname, 'styles')],
   },
-  output: {
-    export: true,
-  },
+  trailingSlash: true,
+  output: 'export',
 };
 
 export default nextConfig;
+
