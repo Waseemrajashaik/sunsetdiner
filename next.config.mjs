@@ -7,6 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const nextConfig = {
   reactStrictMode: true,
+  swcMinify: false,
   basePath: '/sunsetdiner',
   output: 'export',
   images: {

@@ -21,6 +21,7 @@ import SMImage1 from "../../public/special_menu/sm_image1.jpeg";
 import SMImage2 from "../../public/special_menu/sm_image2.jpeg";
 import SMImage3 from "../../public/special_menu/sm_image3.jpeg";
 import HomeBg from "../../public/home-bg.png";
+import HomeBg2 from "../../public/home-bg2.png";
 import DinerKitchen from "../../public/diner-kitchen.jpeg";
 
 const images = [
@@ -167,7 +168,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="relative flex w-screen flex-row flex-wrap justify-around bg-white bg-[url('/home-bg2.png')] bg-cover bg-fixed bg-center bg-no-repeat">
+        <div className="relative flex w-screen flex-row flex-wrap justify-around bg-white bg-cover bg-fixed bg-center bg-no-repeat" style={{ backgroundImage: `url(${HomeBg2.src})`}}>
           <div className="absolute h-full w-full bg-[rgba(0,0,0,0.5)]"></div>
           <h1 className="bungee-style z-10 w-full pt-10 text-center !text-[#89c9f7] drop-shadow-[0px_3px_2px_rgba(0,0,0,1)] min-[100px]:text-3xl lg:text-5xl">
             Today Special Menu
