@@ -4,7 +4,7 @@ import type from "next";
 import Image from "next/image";
 import Lenis from "@studio-freight/lenis";
 import { useTransform, useScroll, motion } from "framer-motion";
-
+import TestimonialSection from './_component/TestimonialSection'
 import Image1 from "../../public/image/image1.jpg";
 import Image2 from "../../public/image/image2.jpg";
 import Image3 from "../../public/image/image3.jpg";
@@ -175,12 +175,11 @@ const Home = () => {
           </h1>
           <div className="flex w-full flex-row flex-wrap justify-around pb-20 pt-20">
             <div className="card relative h-[450px] w-64 cursor-pointer min-[100px]:pb-10 min-[100px]:pt-10">
-              <figure className="z-50 flex h-[200px] w-full items-center rounded-[100%] border">
+              <figure className="z-10 flex h-[200px] w-full items-center rounded-[100%] border">
                 <Image
                   src={SMImage1}
                   alt="Shoes"
                   className="h-inherit w-inherit object-cover"
-                  h-inherit
                 />
               </figure>
               <div className="card-body glass absolute bottom-0 h-[240px] w-full items-center rounded-b-lg pt-[3rem] text-center text-white">
@@ -197,7 +196,7 @@ const Home = () => {
               </div>
             </div>
             <div className="card relative h-[450px] w-64 cursor-pointer min-[100px]:pb-10 min-[100px]:pt-10">
-              <figure className="z-50 flex h-[200px] w-full items-center rounded-[100%] border">
+              <figure className="z-10 flex h-[200px] w-full items-center rounded-[100%] border">
                 <Image
                   src={SMImage2}
                   alt="Shoes"
@@ -218,7 +217,7 @@ const Home = () => {
               </div>
             </div>
             <div className="card relative h-[450px] w-64 cursor-pointer min-[100px]:pb-10 min-[100px]:pt-10">
-              <figure className="z-50 flex h-[200px] w-full items-center rounded-[100%] border">
+              <figure className="z-10 flex h-[200px] w-full items-center rounded-[100%] border">
                 <Image
                   src={SMImage3}
                   alt="Shoes"
@@ -276,6 +275,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <TestimonialSection />
       </div>
     </>
   );
