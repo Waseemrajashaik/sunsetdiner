@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import SunsetLogo from "../../../public/SunsetLogo.png";
+import OrderNow from "../../../public/order_now.png";
 
 type Data = {
   children: any;
@@ -14,12 +15,17 @@ const MenuBarList = [
   { id: 2, name: "ABOUT US", path: "/about-us/", extraClass: "menubtn-l" },
   { id: 3, name: "MENU", path: "/menu/", extraClass: "menubtn-r" },
   { id: 4, name: "CATERING", path: "/catering/", extraClass: "menubtn-b" },
-  { id: 5, name: "RESERVATION", path: "/reservation/", extraClass: "menubtn-o" },
+  {
+    id: 5,
+    name: "RESERVATION",
+    path: "/reservation/",
+    extraClass: "menubtn-o",
+  },
 ];
 
 const NavBar = ({ children }: Data) => {
   const pathname = usePathname();
-  console.log(pathname)
+  console.log(pathname);
   const myRef = useRef(null);
   const [clicked, setClicked] = useState(false);
   const [bgColor, setBgColor] = useState(false);
@@ -99,10 +105,10 @@ const NavBar = ({ children }: Data) => {
         </nav>
       </div>
       {children}
-      <footer className="footer footer-center relative home-bg p-10 text-primary-content">
+      <footer className="home-bg footer footer-center relative p-10 text-primary-content">
         <aside>
           <div className="w-52">
-          <Image
+            <Image
               className="logo"
               src={SunsetLogo}
               alt="Sunset Diner"
@@ -110,7 +116,8 @@ const NavBar = ({ children }: Data) => {
             />
           </div>
           <p className="font-bold">
-            Sunset Diner<br />
+            Sunset Diner
+            <br />
             Providing delicious food since 1992
           </p>
           <p>Copyright © 2024 - All right reserved</p>
@@ -154,6 +161,11 @@ const NavBar = ({ children }: Data) => {
           </div>
         </nav>
       </footer>
+      <div className="fixed z-30 drop-shadow-[0px_0px_18px_rgba(0,0,0,1)] min-[100px]:bottom-1 min-[100px]:right-1 min-[100px]:w-24 lg:bottom-10 lg:right-10 lg:w-32">
+        <a href="https://order.tbdine.com/pickup/34012" target="_blank">
+          <Image src={OrderNow} alt="Order Now" />
+        </a>
+      </div>
     </main>
   );
 };

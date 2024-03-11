@@ -1,0 +1,56 @@
+[
+  {
+    "id": "7de893a1",
+    "customer_name": "John D.",
+    "stars": 5,
+    "comment": "Excellent service, would highly recommend!"
+  },
+  {
+    "id": "b2c1f4d9",
+    "customer_name": "Jane S.",
+    "stars": 4,
+    "comment": "Great experience overall. Room for improvement in some areas."
+  },
+  {
+    "id": "ec83a2f6",
+    "customer_name": "Alice J.",
+    "stars": 3,
+    "comment": "Decent service, but could be better. Had some issues."
+  },
+  {
+    "id": "19a6b87c",
+    "customer_name": "Bob B.",
+    "stars": 2,
+    "comment": "Fairly disappointed. Expected more for the price."
+  },
+  {
+    "id": "fd3e9b5a",
+    "customer_name": "Eve W.",
+    "stars": 1,
+    "comment": "Terrible experience. Would not recommend."
+  },
+  {
+    "id": "25ab7d86",
+    "customer_name": "Michael J.",
+    "stars": 3,
+    "comment": "It was alright. Not bad but not exceptional either."
+  },
+  {
+    "id": "891c3e6f",
+    "customer_name": "Sara T.",
+    "stars": 4,
+    "comment": "Very pleased with the service. Will definitely come back again."
+  },
+  {
+    "id": "d84f9c2b",
+    "customer_name": "Alex B.",
+    "stars": 2,
+    "comment": "Disappointed. Expected more for the price."
+  },
+  {
+    "id": "361d9ef0",
+    "customer_name": "Emily W.",
+    "stars": 5,
+    "comment": "Absolutely fantastic! Couldn't have asked for better."
+  }
+]
