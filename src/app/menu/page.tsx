@@ -23,7 +23,7 @@ const Menu = () => {
         </h1>
         <div className="flex w-full flex-row flex-wrap justify-around pb-20 pt-20">
           <div className="card relative h-[450px] w-64 cursor-pointer min-[100px]:pb-10 min-[100px]:pt-10">
-            <figure className="z-50 flex h-[200px] w-full items-center rounded-[100%] border">
+            <figure className="z-10 flex h-[200px] w-full items-center rounded-[100%] border">
               <Image
                 src={SMImage1}
                 alt="Shoes"
@@ -45,7 +45,7 @@ const Menu = () => {
             </div>
           </div>
           <div className="card relative h-[450px] w-64 cursor-pointer min-[100px]:pb-10 min-[100px]:pt-10">
-            <figure className="z-50 flex h-[200px] w-full items-center rounded-[100%] border">
+            <figure className="z-10 flex h-[200px] w-full items-center rounded-[100%] border">
               <Image
                 src={SMImage2}
                 alt="Shoes"
@@ -66,7 +66,7 @@ const Menu = () => {
             </div>
           </div>
           <div className="card relative h-[450px] w-64 cursor-pointer min-[100px]:pb-10 min-[100px]:pt-10">
-            <figure className="z-50 flex h-[200px] w-full items-center rounded-[100%] border">
+            <figure className="z-10 flex h-[200px] w-full items-center rounded-[100%] border">
               <Image
                 src={SMImage3}
                 alt="Shoes"
